@@ -1,0 +1,79 @@
+:root {
+    --theme-color: #18341E;
+
+    --navBar-width: 130px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rounded Mplus 1c";
+}
+
+.navBar {
+    background-color: var(--theme-color);
+    display: fixed;
+    width: var(--navBar-width);
+    height: 100vh;
+
+}
+.navBar .holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navBar .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+.navBar .logo .image{
+    height: 70px;
+}
+.navBar .logo .text {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.navBar .menus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.navBar .menus .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+}
+.navBar .menus .menu:not(:last-child){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navBar .menus .menu .image{
+    height: 30px;
+}
+.navBar .menus .menu:hover{
+    box-shadow: inset 0px 0px 0px 2px rgba(129, 129, 129, 0.2);
+}
+.navBar .menus .menu .text{
+    font-weight: 200;
+    margin-top: 10px;
+    color: white;
+}
+
+.navBar .mode{
+    height: 100px;
+}
