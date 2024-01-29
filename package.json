@@ -1,0 +1,12 @@
+{
+  "name": "xentolabackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon xentola.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
