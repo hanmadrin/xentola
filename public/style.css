@@ -1,7 +1,7 @@
 :root {
     --theme-color: #18341E;
 
-    --navBar-width: 130px;
+    --navBar-width: 120px;
 }
 
 * {
@@ -34,7 +34,7 @@
     padding: 18px;
 }
 .navBar .logo .image{
-    height: 70px;
+    height: 60px;
 }
 .navBar .logo .text {
     color: white;
@@ -59,16 +59,16 @@
     height: 120px;
     cursor: pointer;
     color: white;
-
+    transition: 0.30s;
 }
 .navBar .menus .menu:not(:last-child){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(190, 190, 190, 0.2);
 }
 .navBar .menus .menu .image{
-    height: 30px;
+    height: 25px;
 }
 .navBar .menus .menu:hover{
-    box-shadow: inset -3px 0px 0px 5px rgba(129, 129, 129, 0.2);
+    box-shadow: inset 0px 0px 0px 100px rgba(129, 129, 129, 0.2);
     color: rgb(201, 201, 201);
 
 }
